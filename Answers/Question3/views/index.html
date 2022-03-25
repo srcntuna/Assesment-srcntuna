@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Message Board</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+  <div id="container">
+  <h1>Course Submit Form</h1>
+  <div id="new-message">
+    <div class="row">
+      <form action="/post" >
+        <div>Choice A: <input id="choiceA" type="text" name="choices[]"/> </div>
+        <div>Choice B: <input id="choiceB" type="text" name="choices[]"/> </div>
+        <div>Choice C: <input id="choiceC" type="text" name="choices[]"/> </div>
+          <div><input id ="submit" type="submit" value="Submit"/></div>
+</form>
+    <div>
+  </div>
+  <ul id="message-list"></ul>
+  </div>
+</body>
+</html>
