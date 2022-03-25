@@ -1,7 +1,6 @@
 const { Pool } = require('pg');
 
-const myURI =
-  'postgres://ahzfzhki:6Ccj4i8io6PGbXpHBHlELIDkyOQILfny@castor.db.elephantsql.com/ahzfzhki';
+const myURI = 'SECRET-POSTGRES-URL';
 
 const URI = process.env.PG_URI || myURI;
 
